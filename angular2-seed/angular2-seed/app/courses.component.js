@@ -20,11 +20,12 @@ System.register(['angular2/core'], function(exports_1, context_1) {
         execute: function() {
             CoursesComponent = (function () {
                 function CoursesComponent() {
+                    this.title = "The title!!! ";
                 }
                 CoursesComponent = __decorate([
                     core_1.Component({
                         selector: 'courses',
-                        template: '<h2>Courses<h2>'
+                        template: '<h2>{{title}}<h2>'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], CoursesComponent);
